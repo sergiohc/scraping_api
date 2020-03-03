@@ -24,6 +24,11 @@ gem 'bootsnap', '>= 1.4.2', require: false
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
+gem 'omniauth'
+gem 'devise_token_auth'
+
+# The Mechanize library is used for automating interaction with websites
+gem 'mechanize', '~> 2.7', '>= 2.7.5'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
